@@ -7,8 +7,8 @@ import {
 
 const router = Router()
 
-router.get('/create-payment', createPayment)
-router.get('/process-payment', processPayment)
-router.get('/cancel-payment', cancelPayment)
+router.get('/api/v1/create-payment', createPayment)
+router.get('/api/v1/process-payment', processPayment)
+router.get('/api/v1/cancel-payment', cancelPayment)
 
 export default router

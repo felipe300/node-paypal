@@ -1,7 +1,6 @@
 import express from 'express'
 import morgan from 'morgan'
 import paymentRoutes from './routes/payment.routes'
-import 'dotenv/config.js'
 
 const app = express()
 const PORT = process.env.PORT || 5000
