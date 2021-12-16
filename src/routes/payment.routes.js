@@ -7,7 +7,7 @@ import {
 
 const router = Router()
 
-router.get('/api/v1/create-payment', createPayment)
+router.post('/api/v1/create-payment', createPayment)
 router.get('/api/v1/process-payment', processPayment)
 router.get('/api/v1/cancel-payment', cancelPayment)
 
